@@ -1,0 +1,29 @@
+.setWidth{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+}
+
+.img_top{
+    width: auto;
+    height: 100%;
+    margin: auto;
+}
+
+@media (max-width: 1201px) {
+    .setWidth{
+        height: 15rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .setWidth{
+        height: 12rem;
+    }
+}
+
+@media (max-width:600px) {
+    .setWidth{
+        height: 15rem;
+    }
+}
